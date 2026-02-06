@@ -9,6 +9,7 @@ Personal configuration files, managed with symlinks.
 | [ncspot](ncspot/) | `~/.config/ncspot/config.toml` | Terminal Spotify client with orange/purple theme |
 | [vscode](vscode/) | `~/.config/Code/User/` | VS Code settings and keybindings |
 | [tmux](tmux/) | `~/.tmux.conf` | Tmux config with purple status line |
+| [opencode](opencode/) | `~/.config/opencode/opencode.json` | OpenCode keybindings |
 
 ## Setup
 

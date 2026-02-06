@@ -15,6 +15,7 @@ link "ncspot/config.toml" "$HOME/.config/ncspot/config.toml"
 link "vscode/settings.json" "$HOME/.config/Code/User/settings.json"
 link "vscode/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
 link "tmux/tmux.conf" "$HOME/.tmux.conf"
+link "opencode/opencode.json" "$HOME/.config/opencode/opencode.json"
 
 # VS Code extensions
 if command -v code &> /dev/null; then
