@@ -1,0 +1,35 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Spinel",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "zsh": {
+            "path": "/usr/bin/zsh"
+        },
+        "tmux": {
+            "path": "tmux",
+            "icon": "terminal-tmux"
+        }
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "terminal.integrated.suggest.enabled": false,
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.gpuAcceleration": "off",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.fontLigatures": true,
+    "editor.fontWeight": "400",
+    "editor.tabSize": 2,
+    "editor.inlineSuggest.enabled": true,
+    "editor.accessibilitySupport": "off",
+    "editor.renderFinalNewline": "on",
+    "files.autoSave": "afterDelay",
+    "claudeCode.useTerminal": true,
+    "chat.agent.enabled": false,
+    "chat.disableAIFeatures": true,
+    "claudeCode.preferredLocation": "panel"
+}
