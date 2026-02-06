@@ -1,0 +1,10 @@
+anthropic.claude-code
+astro-build.astro-vscode
+gruntfuggly.todo-tree
+ms-azuretools.vscode-containers
+ms-azuretools.vscode-docker
+shopify.ruby-extensions-pack
+shopify.ruby-lsp
+sorbet.sorbet-vscode-extension
+sst-dev.opencode
+vscode-icons-team.vscode-icons

@@ -15,3 +15,9 @@ link "ncspot/config.toml" "$HOME/.config/ncspot/config.toml"
 link "vscode/settings.json" "$HOME/.config/Code/User/settings.json"
 link "vscode/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
 link "tmux/tmux.conf" "$HOME/.tmux.conf"
+
+# VS Code extensions
+if command -v code &> /dev/null; then
+  echo "Installing VS Code extensions..."
+  xargs -L 1 code --install-extension < "$DOTFILES/vscode/extensions.txt"
+fi
