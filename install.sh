@@ -17,6 +17,8 @@ Available skip flags:
   --skip-ghostty
   --skip-claude
   --skip-zsh
+  --skip-git
+  --skip-mise
   -h, --help    Show this help
 EOF
 }
@@ -57,6 +59,13 @@ skipped claude   || link "claude/settings.json"        "$HOME/.claude/settings.j
 skipped claude   || link "claude/statusline-command.sh" "$HOME/.claude/statusline-command.sh"
 skipped zsh      || link "zsh/zshrc"                   "$HOME/.zshrc"
 skipped zsh      || link "zsh/p10k.zsh"                "$HOME/.p10k.zsh"
+skipped git      || link "git/ignore"                  "$HOME/.config/git/ignore"
+skipped mise     || link "mise/config.toml"            "$HOME/.config/mise/config.toml"
+
+# mise follows symlinks and won't load configs outside trusted paths until trusted
+if ! skipped mise && command -v mise &> /dev/null; then
+  mise trust "$DOTFILES/mise/config.toml"
+fi
 
 # VS Code extensions
 if ! skipped vscode && ! skipped vscode-extensions && command -v code &> /dev/null; then

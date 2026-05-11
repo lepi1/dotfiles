@@ -13,6 +13,8 @@ Personal configuration files, managed with symlinks.
 | [ghostty](ghostty/) | `~/.config/ghostty/` | Ghostty terminal config + tmux-on-launch script |
 | [claude](claude/) | `~/.claude/` | Claude Code settings + custom statusline |
 | [zsh](zsh/) | `~/.zshrc`, `~/.p10k.zsh` | Zsh config (uses oh-my-zsh + powerlevel10k) |
+| [git](git/) | `~/.config/git/ignore` | Global gitignore |
+| [mise](mise/) | `~/.config/mise/config.toml` | mise tool/runtime settings |
 
 ## Setup
 
