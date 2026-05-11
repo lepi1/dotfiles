@@ -16,6 +16,8 @@ link "vscode/settings.json" "$HOME/.config/Code/User/settings.json"
 link "vscode/keybindings.json" "$HOME/.config/Code/User/keybindings.json"
 link "tmux/tmux.conf" "$HOME/.tmux.conf"
 link "opencode/opencode.json" "$HOME/.config/opencode/opencode.json"
+link "ghostty/config.ghostty" "$HOME/.config/ghostty/config.ghostty"
+link "ghostty/tmux-session.sh" "$HOME/.config/ghostty/tmux-session.sh"
 
 # VS Code extensions
 if command -v code &> /dev/null; then

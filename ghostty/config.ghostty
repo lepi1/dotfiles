@@ -1,0 +1,13 @@
+font-family = MesloLGS NF Regular
+font-size = 10
+theme = Dracula
+window-padding-x = 8
+
+# Launch a new tmux session on every window
+command = /home/lepi/.config/ghostty/tmux-session.sh
+
+# Disable tab keybinds (using windows only)
+keybind = ctrl+shift+t=unbind
+
+# No confirmation popup on close
+confirm-close-surface = false
