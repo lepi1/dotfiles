@@ -15,6 +15,8 @@ Available skip flags:
   --skip-tmux
   --skip-opencode
   --skip-ghostty
+  --skip-claude
+  --skip-zsh
   -h, --help    Show this help
 EOF
 }
@@ -51,6 +53,10 @@ skipped tmux     || link "tmux/tmux.conf"              "$HOME/.tmux.conf"
 skipped opencode || link "opencode/opencode.json"      "$HOME/.config/opencode/opencode.json"
 skipped ghostty  || link "ghostty/config.ghostty"      "$HOME/.config/ghostty/config.ghostty"
 skipped ghostty  || link "ghostty/tmux-session.sh"     "$HOME/.config/ghostty/tmux-session.sh"
+skipped claude   || link "claude/settings.json"        "$HOME/.claude/settings.json"
+skipped claude   || link "claude/statusline-command.sh" "$HOME/.claude/statusline-command.sh"
+skipped zsh      || link "zsh/zshrc"                   "$HOME/.zshrc"
+skipped zsh      || link "zsh/p10k.zsh"                "$HOME/.p10k.zsh"
 
 # VS Code extensions
 if ! skipped vscode && ! skipped vscode-extensions && command -v code &> /dev/null; then

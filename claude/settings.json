@@ -1,0 +1,11 @@
+{
+  "statusLine": {
+    "type": "command",
+    "command": "bash /home/lepi/.claude/statusline-command.sh"
+  },
+  "effortLevel": "medium",
+  "editorMode": "normal",
+  "enabledPlugins": {
+    "ruby-lsp@claude-plugins-official": true
+  }
+}
